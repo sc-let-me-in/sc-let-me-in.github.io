@@ -1,0 +1,19 @@
+.poo-cursor {
+    cursor: url('https://raw.githubusercontent.com/googlefonts/noto-emoji/f2a4f72bffe0212c72949a22698be235269bfab5/svg/emoji_u1f4a9.svg') 67 67, crosshair;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.poo-trail {
+    background-image: url('https://raw.githubusercontent.com/googlefonts/noto-emoji/f2a4f72bffe0212c72949a22698be235269bfab5/svg/emoji_u1f4a9.svg');
+    height: 125px;
+    width: 125px;
+    position: absolute;
+}
