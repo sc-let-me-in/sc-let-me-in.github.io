@@ -3,6 +3,8 @@ var mouseDown = false;
 
 window.addEventListener("mousedown", () => mouseDown = !mouseDown)
 window.addEventListener("mouseup",() => mouseDown = !mouseDown)
+window.addEventListener("touchstart", () => mouseDown = !mouseDown)
+window.addEventListener("touchend", () => mouseDown = !mouseDown)
 
 window.addEventListener("mousemove", function(e) {
     if (Date.now() - lastPooped > 10 && mouseDown) {
